@@ -15,5 +15,5 @@ var Proposal = (function () {
     return Proposal;
 }());
 exports.Proposal = Proposal;
-// 'Abc Company', 'http://portfolio.dipeshbarakoti.com', 'Ruby on Rails', '150, 120, 15,'dipesh@devcamp.com' 
+// 10 'nmc Company', 'http://portfolio.dipeshbarakoti.com', 'Ruby on Rails', '150, 120, 15,'dipesh@devcamp.com' 
 //# sourceMappingURL=proposal.js.map
