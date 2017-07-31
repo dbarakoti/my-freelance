@@ -10,6 +10,7 @@ var core_1 = require("@angular/core");
 './document';
 var DocumentsComponent = (function () {
     function DocumentsComponent() {
+        this.pageTitle = "Document Dashboard";
         this.documents = [
             {
                 title: "My First Doc",
