@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Document } form './document';
+import { Document } from './document';
 
 @Component({
 	moduleId: module.id,
@@ -7,7 +7,7 @@ import { Document } form './document';
 	templateUrl: 'documents.component.html'
 })
 export class DocumentsComponent {
-	pageTitle: string = "Document Dashboard"
+	pageTitle: string = "Document Dashboard";
 	
 	documents: Document[] = [
 		{
