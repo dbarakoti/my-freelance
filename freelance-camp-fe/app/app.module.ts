@@ -32,7 +32,7 @@ import { AppRoutingModule } from './app-routing.module';
 		ProposalShowComponent
 	],
 	providers: [
-		DocumentService
+		DocumentService,
 		ProposalService
 	],
 	bootstrap: [
