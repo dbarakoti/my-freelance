@@ -16,9 +16,9 @@ export class ProposalNewComponent {
 
 	constructor(
 		private proposalService: ProposalService
-		) {}
+	) {}
 
-	createProposal(proposal) {
+	createProposal(proposal: Proposal) {
 		this.submitted = true;
 		this.proposalService.createProposal(proposal)
 				.subscribe(
